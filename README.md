@@ -1,4 +1,4 @@
-### Basic Todo List with HTML, CSS and Vanilla Javascript
+# Basic Todo List with HTML, CSS and Vanilla Javascript
 
 ## Features: 
 - Add task 
