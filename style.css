@@ -67,6 +67,7 @@ form button:hover{
 
 .todo li{
     flex: 1;
+    font-family: "Varela Round", sans-serif;
     list-style: none;
 }
 
@@ -122,6 +123,7 @@ select{
 select{
     color:#e12020;
     width: 10rem;
+    font-family: "Varela Round", sans-serif;
     cursor: pointer;
     padding: 1rem;
 }
