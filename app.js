@@ -4,8 +4,6 @@ const todoButton = document.querySelector('.todo-button');
 const todoList = document.querySelector('.todo-list');
 const filterOption = document.querySelector('.filter-todo');
 
-const COMPLETED = "COMPLETED";
-
 //event listeners
 document.addEventListener('DOMContentLoaded', getTodos); // if content has loaded, execute getTodos function
 todoButton.addEventListener('click', addTodo); // to add on clicking plus 
@@ -70,8 +68,6 @@ function deleteCheck(event) {
     if (item.classList[0] === "complete-btn") {
         const todo = item.parentElement;
         todo.classList.toggle('completed');
-        // also save the status to local storage
-        saveLocalTodos(new TODOItem(todo.children[0].innerText, COMPLETED));
     }
 }
 
